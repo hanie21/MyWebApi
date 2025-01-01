@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Build Results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.log
+*.sql
+*.sqlite
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Package Files
+*.nupkg
+*.snupkg
+
+# Dotnet dependencies
+*.db
+project.lock.json
+project.fragment.lock.json
+
+# Azure Web App settings
+appsettings.Development.json
+appsettings.Production.json
