@@ -11,7 +11,8 @@ var app = builder.Build();
 
 // Enable Swagger
 // Enable Swagger in development mode
-if (app.Environment.IsDevelopment())
+// Enable Swagger for testing
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
